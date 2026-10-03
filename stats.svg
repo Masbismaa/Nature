@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="230" viewBox="0 0 440 230">
+  <style>
+    @keyframes fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    .f { opacity: 0; animation: fade .6s ease-out forwards; }
+    .g { transform-box: fill-box; transform-origin: left; animation: grow .9s cubic-bezier(.6,.1,.2,1) both; }
+    .d { stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 1.2s ease-out .4s forwards; }
+</style>
+  <defs>
+  </defs>
+  <rect width="440" height="230" rx="16" fill="#F7F1E3"/>
+  <rect x="8" y="8" width="424" height="214" rx="10" fill="#FFFBF1" stroke="#DCD3BC" stroke-width="2"/><rect x="8" y="8" width="6" height="214" fill="#C8553D"/>
+  <path d="M26 26 q10 -14 22 -8 q-4 14 -22 8 z" fill="#6FA35E"/>
+  <text x="30" y="46" font-family="'Bitter','Rockwell',Georgia,serif" font-size="20" font-weight="700" fill="#3E6B48">catatan aktivitas</text>
+  <path class="d" d="M30 56 Q 110 50, 196 58" fill="none" stroke="#C8553D" stroke-width="3.5" stroke-linecap="round"/>
+  <g class="f" style="animation-delay:.2s" transform="rotate(4 360 44)">
+    <rect x="300" y="22" width="118" height="46" rx="8" fill="#3E6B48"/>
+    <text x="359" y="42" text-anchor="middle" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#FFFFFF">streak 5 hari</text>
+    <text x="359" y="59" text-anchor="middle" font-family="'Bitter','Rockwell',Georgia,serif" font-size="11" fill="#EAF4E4">terpanjang 5</text>
+  </g>
+  <g class="f" style="animation-delay:0.15s"><text x="34" y="104" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">159</text><text x="34" y="124" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">kontribusi setahun</text></g><g class="f" style="animation-delay:0.27s"><text x="164" y="104" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">134</text><text x="164" y="124" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">commit</text></g><g class="f" style="animation-delay:0.39s"><text x="294" y="104" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">14</text><text x="294" y="124" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">pull request</text></g><g class="f" style="animation-delay:0.51s"><text x="34" y="166" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">0</text><text x="34" y="186" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">issue</text></g><g class="f" style="animation-delay:0.63s"><text x="164" y="166" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">11</text><text x="164" y="186" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">repository</text></g><g class="f" style="animation-delay:0.75s"><text x="294" y="166" font-family="'Bitter','Rockwell',Georgia,serif" font-size="28" font-weight="700" fill="#2E3A32">3</text><text x="294" y="186" font-family="'Bitter','Rockwell',Georgia,serif" font-size="13" fill="#66705F">bintang</text></g>
+</svg>
